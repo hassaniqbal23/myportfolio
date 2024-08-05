@@ -5,10 +5,10 @@ import { usePathname } from "next/navigation";
 // const router = useRouter();
 const links = [
   { name: "home", path: "/" },
-  { name: "services", path: "/services" },
-  { name: "resume", path: "/resume" },
-  { name: "work", path: "/work" },
-  { name: "contact", path: "/contact" },
+  { name: "services", path: "/Services" },
+  { name: "resume", path: "/Resume" },
+  { name: "work", path: "/Work" },
+  { name: "contact", path: "/Contact" },
 ];
 const Nav = () => {
   const pathname = usePathname();
