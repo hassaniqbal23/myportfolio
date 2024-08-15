@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 const StatsCount = [
   {
-    num: 12,
+    num: "2",
     text: "Years of experience",
   },
   {

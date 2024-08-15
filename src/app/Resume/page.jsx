@@ -28,7 +28,7 @@ import { motion } from "framer-motion";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam libero omnis, molestiae",
+    "I am a dedicated full stack developer with over 2 years of experience in crafting engaging and efficient web applications. My expertise covers a wide range of technologies, from frontend frameworks like React and Next.js to backend solutions with Node.js. I am committed to creating high-quality, scalable, and user-centric solutions that meet and exceed client expectations.",
   info: [
     { fieldName: "Name", fieldValue: "Hassan Iqbal" },
     { fieldName: "Phone", fieldValue: "(+92)3554231410" },
@@ -95,7 +95,7 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam",
+    "I have a diverse educational background, combining formal education with specialized training in web development and design. My studies have provided a strong foundation in both technical and creative skills.",
   items: [
     {
       institution: "Online Course Platfrom",
@@ -137,7 +137,7 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "I possess a diverse set of skills that encompass both frontend and backend technologies, as well as design tools. My expertise enables me to create seamless and engaging web experiences.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -167,7 +167,6 @@ const skills = {
       icon: <SiNextdotjs />,
       name: "Next.js",
     },
-
     {
       icon: <FaFigma />,
       name: "Figma",

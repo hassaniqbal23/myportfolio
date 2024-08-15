@@ -20,7 +20,7 @@ const projects = [
     category: "frontend",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam libero omnis, molestiae",
+      "Developed an interactive and responsive website using modern web technologies, enhancing user experience and engagement.",
     stack: [
       {
         name: "HTML 5",
@@ -34,14 +34,14 @@ const projects = [
     ],
     image: "/assets/work/thumb1.png",
     live: "",
-    github: "",
+    github: "https://github.com/hassaniqbal23",
   },
   {
     num: "02",
     category: "Fullstack",
     title: "project 2",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam libero omnis, molestiae",
+      "Created a comprehensive web application with both frontend and backend integration, ensuring seamless functionality and performance.",
     stack: [
       {
         name: "HTML 5",
@@ -55,14 +55,14 @@ const projects = [
     ],
     image: "/assets/work/thumb2.png",
     live: "",
-    github: "",
+    github: "https://github.com/hassaniqbal23",
   },
   {
     num: "03",
     category: "frontend",
     title: "project 3",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam libero omnis, molestiae",
+      "Built a modern, responsive user interface with Next.js and Tailwind CSS, focusing on performance and design.",
     stack: [
       {
         name: "Next.js",
@@ -73,7 +73,7 @@ const projects = [
     ],
     image: "/assets/work/thumb3.png",
     live: "",
-    github: "",
+    github: "https://github.com/hassaniqbal23",
   },
 ];
 
@@ -168,6 +168,7 @@ const Work = () => {
               <WorkSliderrBtns
                 containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
                 btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
+                iconStyles="font-extrabold text-2xl "
               />
             </Swiper>
           </div>
