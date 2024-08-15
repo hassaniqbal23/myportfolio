@@ -4,8 +4,8 @@ import path from "path";
 import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const SocialLinks = [
-  { icon: <FaGithub />, path: "" },
-  { icon: <FaInstagram />, path: "" },
+  { icon: <FaGithub />, path: "https://github.com/hassaniqbal23" },
+  { icon: <FaInstagram />, path: "https://www.instagram.com/hassaniqbal_235/" },
   { icon: <FaLinkedinIn />, path: "" },
 ];
 const Social = ({ containerStyle, iconStyle }) => {
